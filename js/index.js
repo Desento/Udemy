@@ -61,7 +61,7 @@ showMyDB(personalMovieDB.privat);
 
 function writeYourGenres() {
     for (let i =1; i <= 3; i++) {
-        personalMovieDB.genres[ -1] = prompt (`Your best genres is number ${i}`);
+        personalMovieDB.genres[i - 1] = prompt (`Your best genres is number ${i}`);
     }
 }
 
