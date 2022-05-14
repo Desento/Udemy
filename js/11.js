@@ -5,13 +5,13 @@ const family = ['Peter', 'Ann', 'Alex', 'Linda'];
 function showFamily(arr) {
     let str = '';
 
-arr.length === 0 ? str = 'Семья пуста' : str = 'Семья состоит из: ';
+    arr.length === 0 ? str = 'Семья пуста' : str = 'Семья состоит из: ';
 
-arr.forEach(member => {
-    str += `${member} `;
-});
+    arr.forEach(member => {
+        str += `${member} `;
+    });
 
-return console.log(str);
+    return console.log(str);
 }
 showFamily(family);
 const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
